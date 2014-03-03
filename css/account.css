@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content
+{
+background: rgba(255, 248, 175, 0.60);
+height: 500px;
+}
+
+.Vform{
+background-color:#33FFFF;
+width:90%;
+}
