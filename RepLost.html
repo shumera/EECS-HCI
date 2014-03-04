@@ -93,7 +93,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="textinput">What is lost?</label>
   <div class="col-md-7">
-  <input id="textinput" name="textinput" type="text" placeholder="item name..." class="form-control input-md">
+  <input id="textinput" name="textinput" type="text" placeholder="Item name" class="form-control input-md">
   
   </div>
 
@@ -102,7 +102,7 @@
     <div class="form-group">
         <label class="col-md-4 control-label" for="textarea">Describe your item</label>
         <div class="col-md-7">
-            <textarea class="form-control" id="textarea" name="textarea"></textarea>
+            <textarea class="form-control" id="textarea" name="textarea" placeholder="(e.g. iphone 4S with Black&White cover)"></textarea>
         </div>
     </div>
 
@@ -124,7 +124,15 @@
     </div>
   </div>
 </div>
-    <div id="divMap" style="width:500px; height:400px; margin: 0 auto; margin-bottom: 20px;border-width: 1px 1px 1px 1px; border-style:solid"></div>
+
+<div class="form-group">
+        <label class="col-md-4 control-label" for="textarea"> </label>
+        <div class="col-md-7">
+            <div id="divMap" style="width:426px; height:400px; margin: 0 auto; margin-bottom: 20px; 
+            border-width: 1px 1px 1px 1px; border-style:solid"></div>
+        </div>
+    </div>
+    
 
 <!-- File Button --> 
 <div class="form-group">
@@ -135,9 +143,8 @@
 </div>
 
 <!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="singlebutton"></label>
-  <div class="button blue" onclick="navigate('ConfirmLostReport.html')">Submit</div>
+<row>
+ <label class="col-md-4"></label><a id="btn-login" class="btn btn-info" align="right" onclick="navigate('ConfirmLostReport.html')" href="#">Submit</a></row>
     <!--
     <button id="singlebutton" name="singlebutton" class="btn btn-info" onclick="navigate('ConfirmLostReport.html')"></button>-->
   
