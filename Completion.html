@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
 
-    <title>Confirmation</title>
+    <title>Match Unsuccessful</title>
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,24 +28,66 @@
     <!--id="holderjs-style" type="text/css-->
 
 
-
+<div id="CommonPage">
 
             <div class="panel panel-info" >
                     <div class="panel-heading" >
-                        <div class="panel-title" >Congratulations!</div>
+                        <div class="panel-title" >Continued Search</div>
                        
                     </div>     
 
                     <div style="padding-top:10px; height:700px; " class="panel-body" >
-			<div class="alert alert-success">
-				Thank you for using Helping Dory!!
-				  <a href="http://murphy.wot.eecs.northwestern.edu/~xsq859/dory/main.html" class="alert-link">return to our homepage...</a>
+			<div class="alert alert-danger">
+				Unfortunately we were unable match your item
 			</div>
+            <div>
+                <p>We will continue to help you search for your item and send you an email when we find a match<p>
+
+            </div>
+                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                            
+                        <form id="loginform" class="form-horizontal" role="form">
+                                    
+                            <div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <span class="input-group-addon"></span>
+                                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="email">                                        
+                                    </div>
+                                
+                                    
+
+                                
+
+
+                                <div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+
+                                    <div class="col-sm-12 controls">
+                                      <a id="btn-login" href="http://murphy.wot.eecs.northwestern.edu/~xsq859/dory/main.html" class="btn btn-success">Submit  </a>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="col-md-12 control">
+                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                        <a href="#" >
+                                            Return to our home page
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </form>     
 
 
 
+                        </div>                     
 
 
+	</div>
+
+</div>
                       
  
 
